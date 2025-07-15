@@ -5,7 +5,7 @@ const Projects = () => {
     <div className="h-fit py-8 flex gap-8 border-y border-default">
       <div className="flex flex-col gap-8 basis-full">
         <h1 className="font-bold">Projects</h1>
-        <ul className="grid grid-cols-2 gap-2">
+        <ul className="grid xs:grid-cols-1 sm:grid-cols-2 gap-2">
           <li className="border border-[#ababab] rounded-md flex hover:bg-white hover:text-black transition-all">
             <Link
               href="https://tesla-landing-page-clone-sand.vercel.app/"
@@ -33,8 +33,8 @@ const Projects = () => {
               </div>
               <div className="flex flex-col text-[0.875rem] mt-7 gap-3">
                 <p>
-                  Built a simple landing page clone that is fully responsive in
-                  all screens.
+                  Recreated the tesla's landing page using HTML and SASS; fully
+                  responsive in all screens.
                 </p>
                 <span className="text-[#ababab]">HTML + SASS</span>
               </div>

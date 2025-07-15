@@ -21,15 +21,15 @@ const Education = () => {
   ];
 
   return (
-    <div className="h-fit py-8 flex gap-8 border-t border-default">
+    <div className="h-fit py-8 flex xs:flex-col sm:flex-row xs:gap-14 sm:gap-8 border-t border-default">
       <div className="flex flex-col gap-8 basis-full">
         <h1 className="font-bold">Education</h1>
-        <div>
-          <h2 className="font-bold">
+        <div className="text-[0.938rem] text-[#ababab]">
+          <h2 className="font-bold text-base text-white">
             Bachelor of Science in Information Technology
           </h2>
-          <h3 className="text-[#ababab] mt-2">Cebu Technological University</h3>
-          <h3 className="text-[#ababab]">Argao, Philippines</h3>
+          <h3 className="xs:mt-3 sm:mt-2">Cebu Technological University</h3>
+          <h3>Argao, Cebu, Philippines</h3>
         </div>
       </div>
       <div className="flex flex-col gap-8 basis-full">
@@ -42,7 +42,7 @@ const Education = () => {
                 key={index}
               >
                 <Link
-                  className="w-full p-4"
+                  className="w-full xs:p-3 sm:p-4"
                   href={certificate.link}
                   target="_blank"
                 >
@@ -55,7 +55,7 @@ const Education = () => {
                         viewBox="0 0 24 24"
                         strokeWidth="1.5"
                         stroke="currentColor"
-                        className="size-3"
+                        className="size-4"
                       >
                         <path
                           strokeLinecap="round"

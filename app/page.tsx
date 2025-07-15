@@ -20,14 +20,14 @@ const Home = () => {
     },
   ];
   return (
-    <section className="w-full flex gap-[3rem]">
-      <div className="sticky top-0 flex flex-col basis-[40%]">
+    <section className="w-full flex xs:flex-col lg:flex-row xs:gap-[1.5rem] sm:gap-[3rem]">
+      <div className="xs:static lg:sticky top-0 flex flex-col basis-[40%] h-fit">
         <div className="border-y border-default">
-          <p className="px-2 py-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            eaque ducimus magnam explicabo voluptates eos unde suscipit, error,
-            ut molestias, totam accusantium. Cumque, expedita laborum assumenda
-            fugiat esse pariatur itaque!
+          <p className="pl-2 pr-8 py-8">
+            A junior front-end developer focused on building responsive,
+            maintainable web apps. Skilled at turning designs into
+            pixel-perfect, production-ready code using modern frameworks and
+            best practices.
           </p>
         </div>
         <ul className="flex flex-col">
@@ -75,7 +75,7 @@ const Home = () => {
           href="https://mail.google.com/mail/?view=cm&fs=1&to=sherwinjayromano@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-2xl font-bold w-fit self-center mt-[24rem] animate-bounce"
+          className="flex items-center gap-2 text-2xl font-bold w-fit self-center xs:mt-[18rem] md:mt-[24rem] animate-bounce"
         >
           <span>🚀</span>
           <p>Connect with me</p>
