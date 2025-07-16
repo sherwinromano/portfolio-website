@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="h-fit py-8 flex gap-8 border-y border-default">
+    <div
+      role="projects-section"
+      className="h-fit py-8 flex gap-8 border-y border-default"
+    >
       <div className="flex flex-col gap-8 basis-full">
         <h1 className="font-bold">Projects</h1>
         <ul className="grid xs:grid-cols-1 sm:grid-cols-2 gap-2">

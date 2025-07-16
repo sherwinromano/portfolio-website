@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="h-fit py-8 flex flex-col gap-8">
+    <div role="experience-section" className="h-fit py-8 flex flex-col gap-8">
       <h1 className="font-bold">Experience</h1>
       <div className="flex xs:flex-col sm:flex-row">
         <div className="flex flex-col gap-3 basis-full">

@@ -21,7 +21,10 @@ const Education = () => {
   ];
 
   return (
-    <div className="h-fit py-8 flex xs:flex-col sm:flex-row xs:gap-14 sm:gap-8 border-t border-default">
+    <div
+      role="education-section"
+      className="h-fit py-8 flex xs:flex-col sm:flex-row xs:gap-14 sm:gap-8 border-t border-default"
+    >
       <div className="flex flex-col gap-8 basis-full">
         <h1 className="font-bold">Education</h1>
         <div className="text-[0.938rem] text-[#ababab]">

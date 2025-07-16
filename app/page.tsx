@@ -24,47 +24,46 @@ const Home = () => {
       <div className="xs:static lg:sticky top-0 flex flex-col basis-[40%] h-fit">
         <div className="border-y border-default">
           <p className="pl-2 pr-8 py-8">
-            A junior front-end developer focused on building responsive and
+            A junior front-end web developer focused on building responsive and
             dynamic web applications. Skilled at turning designs into
             pixel-perfect, production-ready code using modern frameworks and
             best practices.
           </p>
         </div>
-        <ul className="flex flex-col">
+        <nav className="flex flex-col">
           {navlinks.map((link, index) => {
             return (
-              <li className="flex" key={index}>
-                <Link
-                  href={link.link}
-                  className={
-                    link.name !== "Instagram"
-                      ? "flex items-center gap-2 p-2 text-[0.875rem] font-bold hover:bg-white hover:text-black w-full border-b border-default"
-                      : "flex items-center gap-2 p-2 text-[0.875rem] font-bold hover:bg-white hover:text-black w-full"
-                  }
-                  target="_blank"
-                >
-                  {link.name}
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      className="size-3"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </span>
-                </Link>
-              </li>
+              <Link
+                href={link.link}
+                className={
+                  link.name !== "Instagram"
+                    ? "flex items-center gap-2 p-2 text-[0.875rem] font-bold hover:bg-white hover:text-black w-full border-b border-default"
+                    : "flex items-center gap-2 p-2 text-[0.875rem] font-bold hover:bg-white hover:text-black w-full"
+                }
+                target="_blank"
+                key={index}
+              >
+                {link.name}
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-3"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </Link>
             );
           })}
-        </ul>
+        </nav>
       </div>
       <div className="flex flex-col basis-full border-t border-default">
         <Experience />
@@ -72,10 +71,11 @@ const Home = () => {
         <Education />
         <Projects />
         <Link
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=sherwinjayromano@gmail.com"
+          href="mailto:sherwinjayromano@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-2xl font-bold w-fit self-center xs:mt-[18rem] md:mt-[24rem] animate-bounce"
+          role="footer-link"
         >
           <span>🚀</span>
           <p>Connect with me</p>

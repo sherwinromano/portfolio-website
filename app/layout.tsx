@@ -23,7 +23,10 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <main className="flex flex-col xs:p-5 sm:p-8 xs:gap-0 sm:gap-[10rem]">
-          <section className="w-full flex justify-between h-fit xs:flex-col sm:flex-row xs:gap-[3rem] sm:gap-0 xs:pb-4 sm:pb-0">
+          <section
+            role="heading"
+            className="w-full flex justify-between h-fit xs:flex-col sm:flex-row xs:gap-[6.5rem] sm:gap-0 xs:pb-4 sm:pb-0"
+          >
             <h1 className="font-bold xs:text-[1.3rem] sm:text-2xl">
               Sherwin Romano,
               <span className="block font-light text-[#ababab] tracking-tight">
