@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Sherwin Romano | Web Developer",
   description:
-    "Hello, I'm Sherwin Romano, a junior front-end developer focused on building responsive, maintainable web apps. Skilled at turning designs into pixel-perfect, production-ready code using modern frameworks and best practices.",
+    "Hello, I'm Sherwin Romano, a junior front-end web developer focused on building responsive and dynamic web applications. Skilled at turning designs into pixel-perfect, production-ready code using modern frameworks and best practices.",
 };
 
 export default function RootLayout({
@@ -20,9 +20,10 @@ export default function RootLayout({
           href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className="antialiased">
-        <main className="flex flex-col xs:p-5 sm:p-8 xs:gap-0 sm:gap-[10rem]">
+        <main className="flex flex-col xs:p-5 sm:p-8 xs:gap-0 sm:gap-[10rem] h-auto">
           <section
             role="heading"
             className="w-full flex justify-between h-fit xs:flex-col sm:flex-row xs:gap-[6.5rem] sm:gap-0 xs:pb-4 sm:pb-0"
