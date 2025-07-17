@@ -29,3 +29,17 @@ body {
 .border-default {
   border-color: #383838;
 }
+
+@keyframes gentle-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.gentle-bounce {
+  animation: gentle-bounce 2.5s ease-in-out infinite;
+}

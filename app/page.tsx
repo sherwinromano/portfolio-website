@@ -26,8 +26,8 @@ const Home = () => {
           <p className="pl-2 pr-8 py-8">
             A front-end web developer specializing in building responsive and
             dynamic applications. Experienced in translating design mockups into
-            pixel-perfect, production-ready code using modern frameworks and
-            industry best practices.
+            clean, production-ready code using modern frameworks and industry
+            best practices.
           </p>
         </div>
         <nav className="flex flex-col">
@@ -74,11 +74,24 @@ const Home = () => {
           href="mailto:sherwinjayromano@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-2xl font-bold w-fit self-center xs:mt-[18rem] md:mt-[24rem] animate-bounce"
+          className="flex items-center gap-2 text-2xl font-bold w-fit self-center xs:mt-[18rem] md:mt-[24rem] gentle-bounce"
           role="footer-link"
         >
-          <span>🚀</span>
-          <p>Connect with me</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="mb-1 size-6 -rotate-50"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+            />
+          </svg>
+          <p>Contact me</p>
         </Link>
       </div>
     </section>
