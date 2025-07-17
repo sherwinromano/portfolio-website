@@ -24,10 +24,10 @@ const Home = () => {
       <div className="xs:static lg:sticky top-0 flex flex-col basis-[40%] h-fit">
         <div className="border-y border-default">
           <p className="pl-2 pr-8 py-8">
-            A junior front-end web developer focused on building responsive and
-            dynamic web applications. Skilled at turning designs into
+            A front-end web developer specializing in building responsive and
+            dynamic applications. Experienced in translating design mockups into
             pixel-perfect, production-ready code using modern frameworks and
-            best practices.
+            industry best practices.
           </p>
         </div>
         <nav className="flex flex-col">
