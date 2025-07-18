@@ -43,6 +43,19 @@ const Projects = () => {
               </div>
             </Link>
           </li>
+          <li className="border border-[#0d0d0d] rounded-md flex flex-col justify-between p-4">
+            <h2 className="font-bold text-[#808080]">
+              Datawise | SaaS Website
+            </h2>
+            <p className="invisible mt-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum?
+            </p>
+            <div className="flex items-center gap-2">
+              <div className="loader"></div>
+              <p className="text-[0.875rem] ">In Progress</p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
