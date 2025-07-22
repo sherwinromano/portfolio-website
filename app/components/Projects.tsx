@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
             </Link>
           </li>
-          <li className="border border-[#0d0d0d] rounded-md flex flex-col justify-between p-4">
+          <li className="border border-default rounded-md flex flex-col justify-between p-4">
             <h2 className="font-bold text-[#808080]">
               Datawise | SaaS Website
             </h2>
