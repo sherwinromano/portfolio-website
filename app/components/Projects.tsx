@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: "Datawise",
       descriptions: [
-        "Translated the Figma design into a fully functional website.",
+        "Translated the Figma design into a fully functional website with pixel-perfect accuracy.",
         "Implemented responsive design that adapts on every screens.",
         "Optimized with reusable components.",
       ],
@@ -38,13 +38,13 @@ const Projects = () => {
               >
                 <Link
                   href={project.link}
-                  className="w-full h-full p-4 flex flex-col justify-between gap-8"
+                  className="w-full h-full p-4 flex flex-col justify-between gap-5"
                   target="_blank"
                 >
                   <div className="flex">
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-8">
                       <div className="flex justify-between items-center">
-                        <h2 className="font-bold leading-tight">
+                        <h2 className="font-bold leading-tight text-[1.24rem]">
                           {project.title}
                         </h2>
                         <span>
