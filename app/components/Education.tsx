@@ -35,17 +35,17 @@ const Education = () => {
           <h3>Argao, Cebu, Philippines</h3>
         </div>
       </div>
-      <div className="flex flex-col gap-8 basis-full">
+      <div className="flex flex-col gap-8 basis-full h-fit">
         <h1 className="font-bold">Certifications</h1>
-        <ul className="grid grid-cols-2 gap-2">
+        <ul className="grid xs:grid-cols-1 lg:grid-cols-2 gap-2">
           {certificates.map((certificate, index) => {
             return (
               <li
-                className="border border-[#ababab] rounded-md flex"
+                className="border border-[#ababab] rounded-md flex xs:h-[7rem] lg:h-auto"
                 key={index}
               >
                 <Link
-                  className="w-full xs:p-3 sm:p-4"
+                  className="w-full p-4 flex flex-col justify-between"
                   href={certificate.link}
                   target="_blank"
                 >
