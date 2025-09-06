@@ -1,6 +1,9 @@
 const Experience = () => {
   return (
-    <div role="experience-section" className="h-fit py-8 flex flex-col gap-8">
+    <div
+      role="experience-section"
+      className="h-fit py-[5rem] flex flex-col gap-8"
+    >
       <h1 className="font-bold">Experience</h1>
       <div className="flex xs:flex-col sm:flex-row">
         <div className="flex flex-col gap-3 basis-full">
@@ -23,13 +26,12 @@ const Experience = () => {
           </div>
           <ul className="flex flex-col gap-4 list-disc xs:ml-8 sm:ml-0">
             <li>
-              Assisted in diagnosing and resolving hardware and software
-              problems by working with the IT team to keep systems running
-              smoothly.
+              Assisted in diagnosing and resolving hardware problems by working
+              with the IT team to keep systems running smoothly.
             </li>
             <li>
-              Provided technical support by troubleshooting software issues,
-              leading to faster problem resolution and better user satisfaction.
+              Provided technical support by troubleshooting common software
+              issues.
             </li>
           </ul>
         </div>

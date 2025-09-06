@@ -9,14 +9,13 @@ const Skills = () => {
     "React",
     "Next.js",
     "Vite",
-    "Node.js",
     "Git",
   ];
 
   return (
     <div
       role="skill-section"
-      className="h-fit py-8 flex flex-col gap-8 border-t border-default"
+      className="h-fit py-[5rem] flex flex-col gap-8 border-t border-default"
     >
       <h1 className="font-bold">Skills</h1>
       <div className="flex xs:flex-col sm:flex-row xs:gap-8 sm:gap-0">

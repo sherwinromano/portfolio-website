@@ -23,7 +23,7 @@ const Education = () => {
   return (
     <div
       role="education-section"
-      className="h-fit py-8 flex xs:flex-col sm:flex-row xs:gap-14 sm:gap-8 border-t border-default"
+      className="h-fit py-[5rem] flex xs:flex-col sm:flex-row xs:gap-14 sm:gap-8 border-t border-default"
     >
       <div className="flex flex-col gap-8 basis-full">
         <h1 className="font-bold">Education</h1>
